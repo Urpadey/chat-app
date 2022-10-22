@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+div{
+    margin: auto;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    padding:10px;
+    border:none;
+    background-color: #f1f1f1;
+    outline: none;
+    border-radius: 5px;
+}
+.shareBtn{
+    all:unset;
+    display: block;
+    border:0.2px solid #f1f1f1;
+    background-color:#86ff9f;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.shareBtn:hover{
+    color:#86ff9f;
+    background-color:white;
+}
+.submit{
+    all:unset;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #86ff9f;
+    background-color: white;
+    border:0.1px solid #fff9f9;
+    cursor: pointer;
+}
+.submit:hover,button:active{
+    cursor: pointer;
+    background-color: #86ff9f;
+    color:white;
+}
+
+
